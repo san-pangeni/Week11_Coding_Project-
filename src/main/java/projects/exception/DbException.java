@@ -1,5 +1,6 @@
 package projects.exception;
 
+// Custom exception for database errors.
 @SuppressWarnings("serial")
 public class DbException extends RuntimeException {
     public DbException(String message) {
